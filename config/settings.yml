@@ -1,12 +1,14 @@
 defaults: &defaults
-  cool:
-    saweet: nested settings
-  neat_setting: 24
-  awesome_setting: <%= "Did you know 5 + 5 = #{5 + 5}?" %>
+  aucfan:
+    name: "株式会社オークファン"
+    address: "東京都品川区大崎..."
+    service:
+      guide: "タテンポガイド"
+      robo: "オークファンロボ"
+      pro: "aucfan Pro."
 
 development:
   <<: *defaults
-  neat_setting: 800
 
 test:
   <<: *defaults

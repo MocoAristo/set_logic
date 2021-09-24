@@ -6,6 +6,7 @@ defaults: &defaults
       guide: "タテンポガイド"
       robo: "オークファンロボ"
       pro: "aucfan Pro."
+  name: "YAMLのnameです。"
 
 development:
   <<: *defaults
